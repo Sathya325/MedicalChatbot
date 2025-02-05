@@ -1,0 +1,48 @@
+### user registration
+POST http://localhost:4000/user/register
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"sai",
+    "password":"1234",
+    "email":"sai@gmail.com",
+    "phone":"1234567890"
+}
+
+### user login
+POST http://localhost:4000/user/login
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"sai",
+    "password":"1234"
+}
+
+
+### admin registration
+POST http://localhost:4000/admin/register
+Content-Type: application/json
+
+{
+    "userType":"admin",
+    "username":"Sai",
+    "password":"12345",
+    "email":"sai@gmail.com",
+    "phone":"1234567890"
+
+}
+
+### admin login
+POST http://localhost:4000/user/login
+Content-Type: application/json
+
+{
+    "userType":"admin",
+    "username":"Sai",
+    "password":"12345"
+}
+
+### USER CHAT
+POST http://localhost:4000/user/chat

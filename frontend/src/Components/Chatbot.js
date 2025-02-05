@@ -17,7 +17,7 @@ function Chatbot() {
         setQuestion("");
 
         try {
-            const apiEndpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyCDOYwZH7dh3vBZPGPnb0RfHO3xE7bp7SI";
+            const apiEndpoint = process.env.REACT_APP_API_ENDPOINT;
             if (!apiEndpoint) {
                 throw new Error('API Endpoint is not defined');
             }

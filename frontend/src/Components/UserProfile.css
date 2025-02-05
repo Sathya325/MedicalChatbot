@@ -1,0 +1,21 @@
+.card {
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #a8cdf5; /* Darker blue for header */
+    color: black;
+}
+
+.card-body p {
+    margin-bottom: 0.5rem;
+}
+
+button {
+    font-weight: 500;
+}

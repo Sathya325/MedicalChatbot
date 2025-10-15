@@ -32,9 +32,9 @@ setInterval(() => {
                             const client = require('twilio')(accountSid, authToken); 
                             client.messages 
                                 .create({ 
-                                    from: 'whatsapp:+14155238886',
+                                    from: 'whatsapp:+99999999999',
                                     body: remindObj.reminderMsg,        
-                                    to: 'whatsapp:+919908904241' //YOUR PHONE NUMBER INSTEAD OF 8888888888
+                                    to: 'whatsapp:+919999999999' //YOUR PHONE NUMBER INSTEAD OF 8888888888
                                 }) 
                                 .then(message => console.log(message.sid)) 
                         })
